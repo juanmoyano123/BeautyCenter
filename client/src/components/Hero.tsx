@@ -13,7 +13,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center" 
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80')" }}
       ></div>
-      <div className="absolute inset-0 bg-eerieBlack bg-opacity-40"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       
       {/* Hero content */}
       <div className="relative container mx-auto px-6 z-10">

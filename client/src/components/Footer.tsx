@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
         
         {/* Copyright & Credits */}
-        <div className="text-center text-sm text-taupe">
+        <div className="text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} BellezaSpa. Todos los derechos reservados.</p>
           <p className="mt-2">Hecho con <span className="text-red-500">❤️</span> por EliteFind</p>
         </div>

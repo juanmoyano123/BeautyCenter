@@ -18,9 +18,9 @@ export default function Team() {
               />
               <div className="p-3 bg-white">
                 <h3 className="font-cormorant font-semibold text-lg">{member.name}</h3>
-                <p className="text-sm text-taupe">{member.role}</p>
+                <p className="text-sm text-muted-foreground">{member.role}</p>
               </div>
-              <div className="team-overlay absolute inset-0 bg-lion bg-opacity-20 opacity-0 transition-opacity duration-300 flex items-center justify-center">
+              <div className="team-overlay absolute inset-0 bg-primary bg-opacity-20 opacity-0 transition-opacity duration-300 flex items-center justify-center">
                 <div className="bg-white bg-opacity-90 p-3 rounded">
                   <p className="text-xs text-center">{member.details}</p>
                 </div>
@@ -46,7 +46,7 @@ export default function Team() {
           <h3 className="font-cormorant text-2xl font-semibold mb-4">
             "Nos une la pasión por ayudarte a sentirte bien"
           </h3>
-          <p className="text-taupe">
+          <p className="text-muted-foreground">
             Creemos que el verdadero cuidado estético va más allá de lo visible. Buscamos que cada persona que nos visita se sienta renovada, tanto por fuera como por dentro.
           </p>
         </div>
