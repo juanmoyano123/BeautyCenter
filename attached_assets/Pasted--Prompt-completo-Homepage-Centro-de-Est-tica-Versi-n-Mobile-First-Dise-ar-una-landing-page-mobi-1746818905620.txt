@@ -1,0 +1,99 @@
+✅ Prompt completo – Homepage Centro de Estética (Versión Mobile-First)
+Diseñar una landing page mobile-first para un centro de estética, con un estilo elegante, ordenado y neutro, siguiendo el modelo validado previamente con enfoque visual minimalista y amigable. La landing debe estar compuesta por componentes modulares adaptables y pensada para ser desarrollada con:
+
+Frontend: JavaScript + React + Tailwind CSS
+
+Backend (si aplica): Python + Flask
+
+Base de datos (si aplica): PostgreSQL
+
+🎯 Objetivo:
+Promocionar servicios del centro de estética, mostrar el equipo, exhibir fotos del local, y permitir que los clientes agenden turnos o llamadas fácilmente.
+
+🧱 Estructura de la Página:
+1. Header + Hero (Mobile-first)
+Logo (centro o izquierda)
+
+Menú hamburguesa a la izquierda
+
+Teléfono/ícono contacto a la derecha
+
+Imagen de fondo tipo spa (calmante, relajante)
+
+Título: "Descubrí lo que podemos hacer por vos"
+
+Subtexto: "Agendá tu turno o llamada de manera simple y rápida"
+
+Botón CTA: Conocé más
+
+2. Menú Hamburguesa Desplegable
+Menú lateral (deslizable o superpuesto)
+
+Opciones:
+
+Servicios
+
+Conócenos
+
+Nuestro Trabajo (galería de fotos)
+
+Agendá tu cita
+
+Contacto
+
+3. Sección Servicios
+Título centrado: Servicios
+
+Lista de ítems:
+
+Servicio 1
+
+Servicio 2
+
+Servicio 3
+
+Servicio 4
+
+4. Sección Conócenos
+Título: Conócenos
+
+Mostrar 4 imágenes de personas del equipo (estilo retrato profesional)
+
+Persona 1 – Esteticista
+
+Persona 2 – Especialista facial
+
+Persona 3 – Masoterapeuta
+
+Persona 4 – Atención al cliente
+
+Debajo de cada foto: nombre y rol
+
+Imagen del local (foto ambientada, estética cálida y de confianza)
+
+Frase destacada: “Nos une la pasión por ayudarte a sentirte bien”
+
+5. Formulario Agendamiento
+Campos:
+
+Nombre
+
+Correo
+
+Teléfono
+
+Selección de servicio
+
+Botón: Agendar Cita
+
+6. Testimonio
+Frase destacada: “Desde que usamos esta página, duplicamos los turnos online.”
+
+Nombre: Sofía, Estética Natural
+
+7. Footer
+Redes sociales (Instagram, WhatsApp)
+
+Enlaces: Servicios | Conócenos | Contacto
+
+Aviso legal y firma: Hecho con ❤️ por EliteFind

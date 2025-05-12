@@ -1,0 +1,126 @@
+Prompt completo – Homepage Mobile-First para Centro de Estética
+Diseñar una landing page mobile-first para un centro de estética, con un estilo elegante, ordenado y neutro, basada en el wireframe validado anteriormente. Esta landing debe estar compuesta por componentes modulares reutilizables, orientada a ser desarrollada con:
+
+Frontend: JavaScript + React + Tailwind CSS
+
+Backend (si aplica): Python + Flask
+
+Base de datos (si aplica): PostgreSQL
+
+🎯 Objetivo:
+Promocionar servicios del centro, mostrar el equipo, exhibir fotos del local, y permitir agendar turnos fácilmente desde cualquier dispositivo.
+
+🎨 Identidad Visual
+🎨 Paleta de colores:
+Fondo claro principal:
+
+Isabelline #EDE9E3
+
+Almond #E7D7C9
+
+Elementos secundarios / botones / detalles:
+
+Lion #BE8F6E
+
+Battleship Gray #88816E
+
+Texto principal:
+
+Eerie Black #241F19
+
+Texto secundario / descripciones:
+
+Taupe #483B32
+
+🔤 Tipografías:
+Títulos y encabezados:
+
+Cormorant (serif elegante, clásico y estilizado)
+
+Texto y cuerpo:
+
+Catamaran (sans-serif moderno, legible y profesional)
+
+🧱 Estructura de la Página:
+1. Header + Hero
+Logo (izquierda o centro)
+
+Menú hamburguesa (izquierda)
+
+Ícono de contacto / WhatsApp (derecha)
+
+Imagen hero de fondo (tema spa: piedras, velas o toallas)
+
+Título grande: "Descubrí lo que podemos hacer por vos"
+
+Subtexto: "Agendá tu turno o llamada de manera simple y rápida"
+
+Botón CTA: Conocé más
+
+2. Menú Hamburguesa (mobile)
+Panel lateral con las siguientes opciones:
+
+Servicios
+
+Conócenos
+
+Nuestro Trabajo (galería de fotos)
+
+Agendá tu cita
+
+Contacto
+
+3. Sección Servicios
+Título: Servicios
+
+Lista (cards o íconos) de:
+
+Servicio 1
+
+Servicio 2
+
+Servicio 3
+
+Servicio 4
+
+4. Sección Conócenos
+Título: Conócenos
+
+Fotos del equipo:
+
+Persona 1 – Esteticista
+
+Persona 2 – Especialista facial
+
+Persona 3 – Masoterapeuta
+
+Persona 4 – Atención al cliente
+
+Imagen del local (ambiente cálido, limpio y relajante)
+
+Frase destacada: “Nos une la pasión por ayudarte a sentirte bien”
+
+5. Formulario de Agendamiento
+Campos:
+
+Nombre
+
+Correo
+
+Teléfono
+
+Selección de servicio
+
+Botón: Agendar Cita
+
+6. Testimonio
+Texto: “Desde que usamos esta página, duplicamos los turnos online.”
+
+Autora: Sofía, Estética Natural
+
+7. Footer
+Enlaces rápidos: Servicios | Conócenos | Contacto
+
+Redes sociales (Instagram, WhatsApp)
+
+Firma: Hecho con ❤️ por EliteFind
