@@ -2,9 +2,9 @@ import { team } from "@/lib/utils";
 
 export default function Team() {
   return (
-    <section id="conocenos" className="py-16 px-6 bg-almond">
+    <section id="conocenos" className="py-16 px-6 bg-secondary">
       <div className="container mx-auto">
-        <h2 className="font-cormorant text-eerieBlack text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="font-cormorant text-foreground text-3xl md:text-4xl font-semibold text-center mb-12">
           Conócenos
         </h2>
         

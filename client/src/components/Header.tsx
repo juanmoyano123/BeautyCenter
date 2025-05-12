@@ -41,11 +41,11 @@ export default function Header() {
   return (
     <header className="relative">
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 bg-isabelline shadow-md">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 bg-background shadow-md">
         {/* Menu Button */}
         <button 
           onClick={toggleMenu} 
-          className="text-eerieBlack focus:outline-none" 
+          className="text-foreground focus:outline-none" 
           aria-label="Menu"
         >
           <i className="fas fa-bars text-xl"></i>
@@ -53,14 +53,14 @@ export default function Header() {
         
         {/* Logo */}
         <div className="text-center">
-          <h1 className="font-cormorant font-bold text-xl tracking-wider">BELLEZA<span className="text-lion">SPA</span></h1>
+          <h1 className="font-cormorant font-bold text-xl tracking-wider">BELLEZA<span className="text-primary">SPA</span></h1>
         </div>
         
         {/* Contact Icon */}
         <a 
           href="#contacto" 
           onClick={() => scrollToSection("contacto")}
-          className="text-lion focus:outline-none" 
+          className="text-primary focus:outline-none" 
           aria-label="Contacto"
         >
           <i className="fas fa-phone-alt text-lg"></i>
@@ -74,7 +74,7 @@ export default function Header() {
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
-        <div className="p-5 bg-lion">
+        <div className="p-5 bg-primary">
           <div className="flex justify-between items-center">
             <h2 className="font-cormorant text-white text-xl font-semibold">Menú</h2>
             <button onClick={closeMenu} className="text-white focus:outline-none">
@@ -86,7 +86,7 @@ export default function Header() {
           <li className="border-b border-gray-100">
             <button 
               onClick={() => scrollToSection("servicios")} 
-              className="block w-full text-left px-5 py-3 text-eerieBlack hover:bg-almond transition-colors"
+              className="block w-full text-left px-5 py-3 text-foreground hover:bg-secondary transition-colors"
             >
               Servicios
             </button>
@@ -94,7 +94,7 @@ export default function Header() {
           <li className="border-b border-gray-100">
             <button 
               onClick={() => scrollToSection("conocenos")} 
-              className="block w-full text-left px-5 py-3 text-eerieBlack hover:bg-almond transition-colors"
+              className="block w-full text-left px-5 py-3 text-foreground hover:bg-secondary transition-colors"
             >
               Conócenos
             </button>
@@ -102,7 +102,7 @@ export default function Header() {
           <li className="border-b border-gray-100">
             <button 
               onClick={() => scrollToSection("nuestrotrabajo")} 
-              className="block w-full text-left px-5 py-3 text-eerieBlack hover:bg-almond transition-colors"
+              className="block w-full text-left px-5 py-3 text-foreground hover:bg-secondary transition-colors"
             >
               Nuestro Trabajo
             </button>
@@ -110,7 +110,7 @@ export default function Header() {
           <li className="border-b border-gray-100">
             <button 
               onClick={() => scrollToSection("agenda")} 
-              className="block w-full text-left px-5 py-3 text-eerieBlack hover:bg-almond transition-colors"
+              className="block w-full text-left px-5 py-3 text-foreground hover:bg-secondary transition-colors"
             >
               Agendá tu cita
             </button>
@@ -118,18 +118,18 @@ export default function Header() {
           <li>
             <button 
               onClick={() => scrollToSection("contacto")} 
-              className="block w-full text-left px-5 py-3 text-eerieBlack hover:bg-almond transition-colors"
+              className="block w-full text-left px-5 py-3 text-foreground hover:bg-secondary transition-colors"
             >
               Contacto
             </button>
           </li>
         </ul>
-        <div className="absolute bottom-0 w-full p-5 bg-almond">
+        <div className="absolute bottom-0 w-full p-5 bg-secondary">
           <div className="flex justify-center space-x-4">
-            <a href="#" className="text-lion hover:text-battleship transition-colors" aria-label="Instagram">
+            <a href="#" className="text-primary hover:text-muted-foreground transition-colors" aria-label="Instagram">
               <i className="fab fa-instagram text-xl"></i>
             </a>
-            <a href="#" className="text-lion hover:text-battleship transition-colors" aria-label="WhatsApp">
+            <a href="#" className="text-primary hover:text-muted-foreground transition-colors" aria-label="WhatsApp">
               <i className="fab fa-whatsapp text-xl"></i>
             </a>
           </div>
@@ -140,7 +140,7 @@ export default function Header() {
       <div 
         onClick={closeMenu}
         className={cn(
-          "fixed inset-0 bg-eerieBlack bg-opacity-50 z-40",
+          "fixed inset-0 bg-foreground bg-opacity-50 z-40",
           isMenuOpen ? "block" : "hidden"
         )}
       ></div>

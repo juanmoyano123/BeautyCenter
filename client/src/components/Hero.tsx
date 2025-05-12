@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
           <button 
             onClick={scrollToServices}
-            className="inline-block bg-lion hover:bg-[#A87B5C] text-white font-medium px-6 py-3 rounded-md transition-colors duration-300 shadow-md"
+            className="inline-block bg-primary hover:bg-[#A87B5C] text-white font-medium px-6 py-3 rounded-md transition-colors duration-300 shadow-md"
           >
             Conocé más
           </button>

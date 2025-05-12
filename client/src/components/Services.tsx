@@ -11,7 +11,7 @@ export default function Services() {
   return (
     <section id="servicios" className="py-16 px-6">
       <div className="container mx-auto">
-        <h2 className="font-cormorant text-eerieBlack text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="font-cormorant text-foreground text-3xl md:text-4xl font-semibold text-center mb-12">
           Servicios
         </h2>
         
@@ -28,10 +28,10 @@ export default function Services() {
               />
               <div className="p-5">
                 <h3 className="font-cormorant text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-taupe mb-4">{service.description}</p>
+                <p className="text-muted-foreground mb-4">{service.description}</p>
                 <button 
                   onClick={scrollToAppointment}
-                  className="text-lion font-medium hover:text-battleship transition-colors"
+                  className="text-primary font-medium hover:text-muted-foreground transition-colors"
                 >
                   Reservar ahora →
                 </button>
