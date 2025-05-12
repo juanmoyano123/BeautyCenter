@@ -131,7 +131,7 @@ export default function AppointmentForm() {
           
           <button 
             type="submit" 
-            className="w-full bg-lion hover:bg-[#A87B5C] text-white font-medium py-3 px-4 rounded-md transition-colors duration-300 shadow focus:outline-none"
+            className="w-full bg-primary hover:bg-[#A87B5C] text-white font-medium py-3 px-4 rounded-md transition-colors duration-300 shadow focus:outline-none"
             disabled={appointmentMutation.isPending}
           >
             {appointmentMutation.isPending ? "Enviando..." : "Agendar Cita"}

@@ -8,23 +8,23 @@ export default function Footer() {
   };
   
   return (
-    <footer id="contacto" className="bg-almond py-10 px-6">
+    <footer id="contacto" className="bg-secondary py-10 px-6">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           {/* Logo & Info */}
           <div className="text-center md:text-left mb-6 md:mb-0">
             <h2 className="font-cormorant font-bold text-2xl tracking-wider mb-2">
-              BELLEZA<span className="text-lion">SPA</span>
+              BELLEZA<span className="text-primary">SPA</span>
             </h2>
-            <p className="text-taupe">Tu espacio de belleza y bienestar</p>
+            <p className="text-muted-foreground">Tu espacio de belleza y bienestar</p>
           </div>
           
           {/* Social Media */}
           <div className="flex space-x-6">
-            <a href="#" className="text-lion hover:text-battleship transition-colors" aria-label="Instagram">
+            <a href="#" className="text-primary hover:text-muted-foreground transition-colors" aria-label="Instagram">
               <i className="fab fa-instagram text-2xl"></i>
             </a>
-            <a href="#" className="text-lion hover:text-battleship transition-colors" aria-label="WhatsApp">
+            <a href="#" className="text-primary hover:text-muted-foreground transition-colors" aria-label="WhatsApp">
               <i className="fab fa-whatsapp text-2xl"></i>
             </a>
           </div>
@@ -34,19 +34,19 @@ export default function Footer() {
         <div className="flex justify-center space-x-6 mb-8">
           <button 
             onClick={() => scrollToSection("servicios")} 
-            className="text-taupe hover:text-lion transition-colors"
+            className="text-muted-foreground hover:text-primary transition-colors"
           >
             Servicios
           </button>
           <button 
             onClick={() => scrollToSection("conocenos")} 
-            className="text-taupe hover:text-lion transition-colors"
+            className="text-muted-foreground hover:text-primary transition-colors"
           >
             Conócenos
           </button>
           <button 
             onClick={() => scrollToSection("contacto")} 
-            className="text-taupe hover:text-lion transition-colors"
+            className="text-muted-foreground hover:text-primary transition-colors"
           >
             Contacto
           </button>
