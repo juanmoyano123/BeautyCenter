@@ -62,9 +62,9 @@ export default function AppointmentForm() {
   };
   
   return (
-    <section id="agenda" className="py-16 px-6 bg-lion bg-opacity-10">
+    <section id="agenda" className="py-16 px-6 bg-primary bg-opacity-10">
       <div className="container mx-auto max-w-md">
-        <h2 className="font-cormorant text-eerieBlack text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="font-cormorant text-foreground text-3xl md:text-4xl font-semibold text-center mb-12">
           Agendá tu cita
         </h2>
         
@@ -73,12 +73,12 @@ export default function AppointmentForm() {
           className="bg-white rounded-lg shadow-md p-6"
         >
           <div className="mb-4">
-            <label htmlFor="name" className="block text-taupe text-sm font-medium mb-2">Nombre</label>
+            <label htmlFor="name" className="block text-muted-foreground text-sm font-medium mb-2">Nombre</label>
             <input 
               type="text" 
               id="name"
               {...register("name")}
-              className={`w-full px-4 py-2 border rounded-md focus:ring-lion focus:border-lion ${errors.name ? 'border-red-500' : 'border-gray-300'}`}
+              className={`w-full px-4 py-2 border rounded-md focus:ring-primary focus:border-primary ${errors.name ? 'border-red-500' : 'border-gray-300'}`}
             />
             {errors.name && (
               <p className="text-red-500 text-xs mt-1">{errors.name.message}</p>
@@ -86,12 +86,12 @@ export default function AppointmentForm() {
           </div>
           
           <div className="mb-4">
-            <label htmlFor="email" className="block text-taupe text-sm font-medium mb-2">Correo electrónico</label>
+            <label htmlFor="email" className="block text-muted-foreground text-sm font-medium mb-2">Correo electrónico</label>
             <input 
               type="email" 
               id="email"
               {...register("email")}
-              className={`w-full px-4 py-2 border rounded-md focus:ring-lion focus:border-lion ${errors.email ? 'border-red-500' : 'border-gray-300'}`}
+              className={`w-full px-4 py-2 border rounded-md focus:ring-primary focus:border-primary ${errors.email ? 'border-red-500' : 'border-gray-300'}`}
             />
             {errors.email && (
               <p className="text-red-500 text-xs mt-1">{errors.email.message}</p>
@@ -99,12 +99,12 @@ export default function AppointmentForm() {
           </div>
           
           <div className="mb-4">
-            <label htmlFor="phone" className="block text-taupe text-sm font-medium mb-2">Teléfono</label>
+            <label htmlFor="phone" className="block text-muted-foreground text-sm font-medium mb-2">Teléfono</label>
             <input 
               type="tel" 
               id="phone"
               {...register("phone")}
-              className={`w-full px-4 py-2 border rounded-md focus:ring-lion focus:border-lion ${errors.phone ? 'border-red-500' : 'border-gray-300'}`}
+              className={`w-full px-4 py-2 border rounded-md focus:ring-primary focus:border-primary ${errors.phone ? 'border-red-500' : 'border-gray-300'}`}
             />
             {errors.phone && (
               <p className="text-red-500 text-xs mt-1">{errors.phone.message}</p>
@@ -112,11 +112,11 @@ export default function AppointmentForm() {
           </div>
           
           <div className="mb-6">
-            <label htmlFor="service" className="block text-taupe text-sm font-medium mb-2">Servicio</label>
+            <label htmlFor="service" className="block text-muted-foreground text-sm font-medium mb-2">Servicio</label>
             <select 
               id="service"
               {...register("service")}
-              className={`w-full px-4 py-2 border rounded-md focus:ring-lion focus:border-lion ${errors.service ? 'border-red-500' : 'border-gray-300'}`}
+              className={`w-full px-4 py-2 border rounded-md focus:ring-primary focus:border-primary ${errors.service ? 'border-red-500' : 'border-gray-300'}`}
             >
               <option value="" disabled>Selecciona un servicio</option>
               <option value="facial">Tratamiento Facial</option>

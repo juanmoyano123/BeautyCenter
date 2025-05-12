@@ -4,7 +4,7 @@ export default function Gallery() {
   return (
     <section id="nuestrotrabajo" className="py-16 px-6">
       <div className="container mx-auto">
-        <h2 className="font-cormorant text-eerieBlack text-3xl md:text-4xl font-semibold text-center mb-12">
+        <h2 className="font-cormorant text-foreground text-3xl md:text-4xl font-semibold text-center mb-12">
           Nuestro Trabajo
         </h2>
         
